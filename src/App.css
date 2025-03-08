@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.swiper-slide {
+    opacity: 0 !important;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .swiper-slide-active {
+    opacity: 1 !important;
+  }
+  
